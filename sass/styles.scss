@@ -1,0 +1,44 @@
+@import 'bootstrap';
+body{
+  background: #000!important;
+  color: #fff!important;
+  select{
+    background: #000;
+    width: 200px;
+    height: 30px;
+  }
+  h3:after{
+    content: "";
+    position:absolute;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: #fff;
+  }
+  h3{
+    position:relative;
+  }
+
+  .wrapper{
+    margin: 50px 200px 50px 200px;
+      .title{
+        font-style: Italic;
+        font-size: large;
+        margin-top: 10px;
+      }
+      .country-title.text-right {
+        text-align: right;
+        font-size: 55px;
+        font-weight: bold;
+      }
+    }
+}
+
+
+
+
+
+
+
+
